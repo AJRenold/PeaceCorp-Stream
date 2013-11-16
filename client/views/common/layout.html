@@ -28,7 +28,6 @@
     {{/if}}
   </style>
   <div class="outer-wrapper {{currentPage}}">
-    {{#if logo_url}}
       <h1 class="logo image" style="margin-left:150px">
         <a href="/">
             <!-- <img src="{{logo_url}}" alt="{{site_title}}"/> -->
@@ -37,9 +36,6 @@
           </span>
         </a>
       </h1>
-    {{else}}
-      <h1 class="logo"><a href="/">{{site_title}}</a></h1>
-    {{/if}}
     {{> mobile_nav}}
     <div class="content-wrapper template-{{pageName}}">
       {{> nav}}
