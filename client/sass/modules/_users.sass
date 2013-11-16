@@ -1,0 +1,44 @@
+.filter-sort
+  +cf
+  background: $lightest-grey
+  +border-radius(3px)
+  padding: 8px 15px
+  font-size: 13px
+  a, span
+    display: inline-block
+    margin-right: 20px
+    &.active
+      border-bottom: 2px solid $blue
+    &:last-child
+      margin-right: 0
+  .filter
+    float: left
+  .sort
+    float: right
+
+.user-list, .user-table
+  .user
+    .user-avatar
+      height: 30px
+      width: 30px
+      background-size: 30px 30px
+      display: block
+      +border-radius(30px)
+    .posts-list
+
+table
+  tr
+    td
+      padding: 10px
+  thead
+    tr
+      td
+        font-weight: bold
+  tbody
+    tr
+      td
+
+.user-table
+  font-size: 13px
+  tr
+    border-bottom: 1px solid #eee

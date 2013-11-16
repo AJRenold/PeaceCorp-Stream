@@ -16,7 +16,10 @@ Template.layout.helpers({
   },
   extraCode: function(){
     return getSetting('extraCode');
-  }     
+  },
+  logo_url: function(){
+    return getSetting('logoUrl');
+  }
 });
 
 Template.layout.created = function(){
