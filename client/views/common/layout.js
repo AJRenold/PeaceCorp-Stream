@@ -36,4 +36,6 @@ Template.layout.rendered = function(){
     var title = getSetting("title");
     var tagline = getSetting("tagline");
     document.title = (tagline ? title+': '+tagline : title) || "";
+    
+    window.picturefill();
 }
